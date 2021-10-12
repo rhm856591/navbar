@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #24252A;
+}
+
+li,a,button{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_list{
+    list-style: none;
+}
+
+.nav_list li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+img{
+    margin: 20px;
+    cursor: pointer;
+    width: 45px;
+    border-radius: 25px;
+
+}
+
+.btn{
+    margin-left: auto;
+}
+
+button{
+    margin-right: auto;
+    cursor: pointer;
+    padding: 5px 8px;
+    border: none;
+    background-color: rgba(0, 136, 169, 1);
+    border-radius: 12px;
+    transition: all 0.3s ease 0s;
+    /* margin: 3px 9px; */
+}
+
+.nav_list li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_list li a:hover{
+    color: #0088a9;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
